@@ -54,7 +54,7 @@ def severidad(n):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Uso: python v2.py <fichero_log>")
+        print("Uso: python detector.py <fichero_log>")
         sys.exit(1)
 
     fallos = leer_fallos(sys.argv[1])
